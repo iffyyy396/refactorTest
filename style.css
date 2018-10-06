@@ -1,0 +1,79 @@
+body, body * {
+    font-family: 'Montserrat', sans-serif;
+    color: #494949;
+}
+
+body {
+    background-color: #40a63d1a;
+}
+.navlogo,.font-logo {
+    color: #cb1b3e;
+    font-weight: bold;
+    height: 50px;
+}
+.font-logo {
+    font-size: 25px;
+}
+#text-position,
+#flag-position {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    position: absolute;
+    right: 1%;
+}
+.bg-dark{
+    background-color: #494949!important;
+    height: 50px!important;
+}
+.nav-text {
+    color: #acadaf!important;
+    font-size: 10px!important;
+    font-weight: bold!important;
+    padding: 5px 10px!important;
+}
+.pageEl {
+    margin:50px 0px 0px 100px;
+}
+section{
+    display: inline-block;
+}
+.card {
+    background-color: white;
+    width: 50vh;
+}
+.heading {
+    margin-bottom: 30px
+}
+.what-btn {
+    width: 42vh;
+    color: white;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.strong {
+    color: white;
+}
+.img-heading{
+    color: black;
+    height: 200px;
+    width: 100%;
+    font-size: 60px;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fas,
+.fas:hover, .fas:active, .fas:visited {
+    text-decoration: none;
+    font-size: 1.7vh;
+    color: #5ea32a;
+    margin-left: 10px;
+}
+.icon-set {
+    font-size: 10px;
+    font-weight: 600;
+}
