@@ -21,14 +21,16 @@ function refactor(lang){
             console.log(data);
     //         document.querySelector('.nav-text').innerHTML
     //         for(let i = 0; i <= 3; i++){
-    //             document.querySelector('#text-position').innerHTML += `<li class="nav-item">
+    //             document.querySelector('#text-position').innerHTML += data.menuOptions[i].toUpperCase;
+    //             let optionEl = `<li class="nav-item">
     //     <a class="nav-link" href="#">
 	// 		<span class="nav-text">
-    //             ${data.menuOptions[i]}
+    //             ${optionEl}
 	// 		</span>
 	// 	</a>
     //   </li>`
     //         }
+            document.querySelector('.icon-set').innerHTML = new Date(data.date).toDateString('en-US');
             document.querySelector('.card-title').innerHTML = data.info.heading;
             document.querySelector('.card-text').innerHTML = data.info.description;
             document.querySelector('.card-titleB').innerHTML = data.sale.heading;

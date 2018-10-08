@@ -40,13 +40,12 @@ section{
 }
 .card {
     background-color: white;
-    width: 50vh;
+    width: 40vh;
 }
 .heading {
     margin-bottom: 30px
 }
 .what-btn {
-    width: 42vh;
     color: white;
     font-size: 14px;
     border-radius: 2px;
